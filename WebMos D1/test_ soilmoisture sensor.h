@@ -9,7 +9,7 @@
 
 	int sensor pin = A0;	//assumption
 	int sensor_value;  
-	int delay = 500;	// delay to boot up.
+	int delay = 500;
 
 
 int soil_moisture() 
