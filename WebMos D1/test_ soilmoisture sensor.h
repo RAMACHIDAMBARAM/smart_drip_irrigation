@@ -22,20 +22,20 @@ if(soil_value<300)
 {
 
 	
-	return 0;
+	return 0; 		//dry soil
 }
 
 else if((soil_value>300)&&(soil_value<700))
 {
 
 	
-	return 1;
+	return 1;		//humid soil
 }
 
 else if((soil_value>700)&&(soil_value<950))
 {
 
-	return 2;
+	return 2;	//wet soil
 }
 call(delay);
 }
